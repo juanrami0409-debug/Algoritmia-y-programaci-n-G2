@@ -30,9 +30,18 @@ Diccionario = {"nombre": "Juan",
                "edad": 30, 
                "ciudad": "Madrid"}
 
-for i in Diccionario:
-    print(i) # Imprime las claves del diccionario   
+#for i in Diccionario:
+ #   print(i) # Imprime las claves del diccionario   
 
-for i, j in zip(Diccionario.keys(), Diccionario.values()):
-    print(i, j) # Imprime las claves y valores del dic
+#for i, j in zip(Diccionario.keys(), Diccionario.values()):
+ 
+ #   print(i, j) # Imprime las claves y valores del dic
 
+seguro = False
+x = input("ingrese algo: ")
+while not seguro:
+
+    if x == "salir":
+        seguro = True
+    print("este es un ciclo de while infinito)")
+    
